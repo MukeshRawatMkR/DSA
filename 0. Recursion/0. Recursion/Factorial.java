@@ -1,5 +1,5 @@
-//1st(Done)
-class Main {
+//1st(Done) but not optimized.
+class Factorial {
     public static int fact(int n){
         if(n<=1)return 1;    
         return n*fact(n-1);
